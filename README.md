@@ -42,6 +42,7 @@ Use Debank to sanity check your calculated portfolio value.
 - Helpful comments with doc links are in `main.py`
 - Use the provided ABIs for contract interactions
 - Also you can use block explorers (basescan.org) to help find relevant contract functions
+- Please disable AI/LLM assistance while working through this problem.
 
 ## TL;DR
 1. Clone this repo and install dependencies to get started.
