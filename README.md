@@ -11,7 +11,7 @@ The project includes:
 
 ## Task Requirements
 
-### 1. Track These Assets
+### 1. Track Assets
 Monitor the following assets for the user `0x9B974aF13ae64775E7E96fd92d9089b479cB57C5`:
 - **ETH** - Native Base network token
 - **USDC** - Address = `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`
@@ -19,16 +19,16 @@ Monitor the following assets for the user `0x9B974aF13ae64775E7E96fd92d9089b479c
     - Vault UI: [https://app.morpho.org/base/vault/0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A/spark-usdc-vault](https://app.morpho.org/base/vault/0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A/spark-usdc-vault)
 
 ### 2. Calculate Portfolio Value
-- Sum all values for total portfolio value
+- Sum value of each position to calculate total portfolio value
 
 ### 3. Price Data
-You can connect to our internal price API using the following endpoint to get token prices by symbol: `https://prices.augustdigital.io/price/{symbol}`
+You can connect to August price API to get token prices by symbol: `https://prices.augustdigital.io/price/{symbol}`
 
 ### 4. Logging Requirements
 - Log the portfolio value every 5 seconds
-- Include any necessary checks or error handling logic
+- Include any checks or error handling logic as you see fit
 
-### 5. Reference Check
+### 5. Sanity Check
 Use Debank to sanity check your calculated portfolio value.
 - [https://debank.com/profile/0x9B974aF13ae64775E7E96fd92d9089b479cB57C5](https://debank.com/profile/0x9B974aF13ae64775E7E96fd92d9089b479cB57C5)
 
@@ -38,8 +38,8 @@ Use Debank to sanity check your calculated portfolio value.
 - Also you can use block explorers (basescan.org) to help find relevant contract functions
 
 ## TL;DR
-1. Implement the portfolio calculation logic in `main()` in a 5-second loop
-3. Test your implementation
-4. Verify results against debank.com
+1. Clone this repo and install dependencies to get started.
+1. Implement the portfolio calculation logic in `main()` in a 5-second loop.
+3. Verify your implementation against Debank.
 
 Good luck!
