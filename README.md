@@ -5,7 +5,9 @@ Create a portfolio value tracker that monitors the total USD value of assets for
 
 ## Advice
 
-Take your time reading through the prompt, ask questions to clarify and digest the problem, and use provided links and documentation to help you as needed. It is OK if you don't understand all or some of the task - this problem is meant to test one's ability to read documentation, identify and map out the important details of a problem, and ask good clarifying questions.
+Take your time reading through the prompt, ask questions to clarify and digest the problem, and use provided links and documentation to help you as needed. 
+
+It is OK if you don't understand all or some of the task - this problem is not solely for judging web3/crypto knowledge and coding abilities, but also to test one's ability to read documentation, identify and map out the important details of a (potentially unfamiliar) problem, and ask good clarifying questions.
 
 ## File structure
 The project includes:
