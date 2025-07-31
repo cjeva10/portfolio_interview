@@ -3,6 +3,10 @@
 ## Objective
 Create a portfolio value tracker that monitors the total USD value of assets for a specific wallet address and logs the value every 5 seconds.
 
+## Advice
+
+Take your time reading through the prompt, ask questions to clarify and digest the problem, and use provided links and documentation to help you as needed. It is OK if you don't understand all or some of the task - this problem is meant to test one's ability to read documentation, identify and map out the important details of a problem, and ask good clarifying questions.
+
 ## File structure
 The project includes:
 - `main.py` - Main script with some Web3 / contract boilerplate
