@@ -43,3 +43,4 @@ Use Debank to sanity check your calculated portfolio value.
 3. Verify your implementation against Debank.
 
 Good luck!
+Feel free to ask me questions!
