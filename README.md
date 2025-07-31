@@ -9,12 +9,6 @@ Take your time reading through the prompt, ask questions to clarify and digest t
 
 It is OK if you don't understand all or some of the task - this problem is not solely for judging web3/crypto knowledge and coding abilities, but also to test one's ability to read documentation, identify and map out the important details of a (potentially unfamiliar) problem, and ask good clarifying questions.
 
-## File structure
-The project includes:
-- `main.py` - Main script with some Web3 / contract boilerplate
-- `ierc20_abi.json` - ERC20 token ABI for standard token interactions
-- `ierc4626_abi.json` - ERC4626 vault ABI for Metamorpho interactions
-
 ## Task Requirements
 
 ### 1. Track Assets
@@ -37,6 +31,13 @@ You can connect to August price API to get token prices by symbol: `https://pric
 ### 5. Sanity Check
 Use Debank to sanity check your calculated portfolio value.
 - [https://debank.com/profile/0x9B974aF13ae64775E7E96fd92d9089b479cB57C5](https://debank.com/profile/0x9B974aF13ae64775E7E96fd92d9089b479cB57C5)
+
+## File structure
+The project includes:
+- `main.py` - Main script with some Web3 / contract boilerplate (write your code here)
+- `ierc20_abi.json` - ERC20 token ABI for standard token interactions
+- `ierc4626_abi.json` - ERC4626 vault ABI for Metamorpho interactions
+- `requirements.txt` - Dependencies file
 
 ## Technical Notes
 - Helpful comments with doc links are in `main.py`
